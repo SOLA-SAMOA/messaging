@@ -208,7 +208,9 @@ public class ClientMessage {
    /** clichck070 - EntEnter a correct format date (mm/dd/yy) in To date.. */
     public static final String CHECK_NOTNULL_DATETO = CHECK + "070"; 
    /** clichck071 - Registration date can't be greater than current date */
-    public static final String CHECK_REGISTRATION_DATE = CHECK + "071"; 
+    public static final String CHECK_REGISTRATION_DATE = CHECK + "071";
+    /** clichck072 - Fill in Agent */
+    public static final String CHECK_APP_AGENT = CHECK + "072";
     
     // Application messages
     /** cliapp001 - Select document to attach digital copy. */
