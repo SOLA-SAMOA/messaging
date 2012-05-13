@@ -209,6 +209,8 @@ public class ClientMessage {
     public static final String CHECK_NOTNULL_DATETO = CHECK + "070"; 
    /** clichck071 - Registration date can't be greater than current date */
     public static final String CHECK_REGISTRATION_DATE = CHECK + "071"; 
+    /** clichck072 - Enter at least one owner. */
+    public static final String CHECK_SIZE_OWNERSLIST = CHECK + "072";
     
     // Application messages
     /** cliapp001 - Select document to attach digital copy. */
@@ -376,6 +378,9 @@ public class ClientMessage {
     
     /** clierrs004 - Violation of business rules occurred. */
     public static final String ERR_BR_VIOLATION = GENERAL_ERRORS + "004";
+    
+    /** clierrs005 - {0} Web-service is not initialized. */
+    public static final String GENERAL_ERRORS_WEBSERVICE_NOT_INITIALIZED = GENERAL_ERRORS + "005";
     
     // General confirms
     /** cliconfirm001 - Are you sure you want to delete record? All data will be lost */
