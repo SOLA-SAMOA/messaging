@@ -208,9 +208,13 @@ public class ClientMessage {
    /** clichck070 - EntEnter a correct format date (mm/dd/yy) in To date.. */
     public static final String CHECK_NOTNULL_DATETO = CHECK + "070"; 
    /** clichck071 - Registration date can't be greater than current date */
-    public static final String CHECK_REGISTRATION_DATE = CHECK + "071";
-    /** clichck072 - Fill in Agent */
-    public static final String CHECK_APP_AGENT = CHECK + "072";
+    public static final String CHECK_REGISTRATION_DATE = CHECK + "071"; 
+    /** clichck072 - Enter at least one owner. */
+    public static final String CHECK_SIZE_OWNERSLIST = CHECK + "072";
+    
+    
+    /** clichck300 - Fill in Agent */
+    public static final String CHECK_APP_AGENT = CHECK + "300";
     
     // Application messages
     /** cliapp001 - Select document to attach digital copy. */
@@ -378,6 +382,9 @@ public class ClientMessage {
     
     /** clierrs004 - Violation of business rules occurred. */
     public static final String ERR_BR_VIOLATION = GENERAL_ERRORS + "004";
+    
+    /** clierrs005 - {0} Web-service is not initialized. */
+    public static final String GENERAL_ERRORS_WEBSERVICE_NOT_INITIALIZED = GENERAL_ERRORS + "005";
     
     // General confirms
     /** cliconfirm001 - Are you sure you want to delete record? All data will be lost */
