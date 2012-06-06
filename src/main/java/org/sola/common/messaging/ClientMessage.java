@@ -211,6 +211,14 @@ public class ClientMessage {
     public static final String CHECK_REGISTRATION_DATE = CHECK + "071"; 
     /** clichck072 - Enter at least one owner. */
     public static final String CHECK_SIZE_OWNERSLIST = CHECK + "072";
+    /** clichck073 - Invalid telephone number. */
+    public static final String CHECK_INVALID_PHONE = CHECK + "073";
+    /** clichck074 - Invalid fax. */
+    public static final String CHECK_INVALID_FAX = CHECK + "074";
+    /** clichck075 - Invalid mobile. */
+    public static final String CHECK_INVALID_MOBILE = CHECK + "075";
+ 
+    
     
     
     /** clichck300 - Fill in Agent */
@@ -308,6 +316,10 @@ public class ClientMessage {
     public static final String APPLICATION_OPENING_FORM = APPLICATION + "038";
      /** cliapp039 - You've made some changes on the application. They will be saved before further action. Do you want to continue? */
     public static final String APPLICATION_SAVE_BEFORE_ACTION = APPLICATION + "039";
+    
+     /** cliapp040 - You are adding new services to the list. Remember to pay the fee for new added service  */
+     public static final String APPLICATION_WARNING_ADDEDSERVICE = APPLICATION + "040";
+     
    
     // Reports messages.
     /** clirpt001 - Report generation failed. Error details: {0} */
