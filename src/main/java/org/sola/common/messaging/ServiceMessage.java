@@ -44,6 +44,7 @@ public class ServiceMessage {
     private static final String EJB_APPLICATION = MSG_PREFIX + "ejbapplication";
     private static final String EJB_SOURCE = MSG_PREFIX + "ejbsource";
     private static final String EJB_TRANSACTION = MSG_PREFIX + "ejbtransaction";
+    private static final String EJB_ADMINISTRATIVE = MSG_PREFIX + "ejbprop";
     private static final String ADMIN_WS = MSG_PREFIX + "adminservice";
     
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
@@ -126,4 +127,8 @@ public class ServiceMessage {
     // Admin Web-service
     /** seradminservice001 - Username "{0}" already exists. */
     public static final String ADMIN_WS_USER_EXISTS = ADMIN_WS + "001";
+    
+    // Administrative EJB Messages
+    /** serprop001 - New properties must be associated with a parcel */
+    public static final String EJB_ADMINISTRATIVE_NO_PARCEL = EJB_ADMINISTRATIVE + "001";
 }
