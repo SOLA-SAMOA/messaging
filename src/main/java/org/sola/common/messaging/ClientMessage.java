@@ -136,6 +136,10 @@ public class ClientMessage {
      * clignrl022 - Document
      */
     public static final String GENERAL_LABELS_DOCUMENT = GENERAL + "022";
+    /**
+     * clignrl023 - refresh Dashboard
+     */
+    public static final String GENERAL_BACK_TO_DASHBOARD = GENERAL + "023";
     // Service Messages
     /**
      * cliserv001 - Unable to initialize the {0} service. The reason is: {1}
@@ -356,13 +360,25 @@ public class ClientMessage {
      */
     public static final String CHECK_PERSON_ADDRESS = CHECK + "089";
     /**
-     * clichck089 - Invalid length name field.
+     * clichck090 - Invalid length name field.
      */
     public static final String CHECK_FIELD_INVALID_LENGTH_NAME = CHECK + "090";
     /**
-     * clichck089 - Invalid length last name field.
+     * clichck091 - Invalid length last name field.
      */
     public static final String CHECK_FIELD_INVALID_LENGTH_LASTNAME = CHECK + "091";
+    
+    /**
+     * clichck092 - No item starting with {0} .
+     */
+    public static final String CHECK_NO_MATCHING_ITEM = CHECK + "092";
+    
+    
+     /**
+     * clichck093 - {0} value must be an integer .
+     */
+    public static final String CHECK_BAUNITAREA_INTEGER = CHECK + "093";
+    
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
@@ -629,6 +645,10 @@ public class ClientMessage {
      * clibaunit015 - Failed to save property.
      */
     public static final String BAUNIT_SAVE_FAILED = BAUNIT + "015";
+    /**
+     * clibaunit016 - The sum of parcels areas is "{0}". Do you want to save this value for area size?
+     */
+    public static final String BAUNIT_CONFIRM_AREA = BAUNIT + "016";
     // General error messages
     /**
      * clierrs001 - Can't cerate a new file. {0}

@@ -49,6 +49,7 @@ public class GisMessage {
     private static final String CADASTRE_REDEFINITION = MSG_PREFIX + "_cadastre_redefinition_";
     private static final String CADASTRE_BOUNDARY = MSG_PREFIX + "_cadastre_boundary_";
     private static final String LEFT_PANEL = MSG_PREFIX + "_left_panel_";
+    private static final String IMPORT_FILE = MSG_PREFIX + "_import_file_";
    // General Messages
     /** gisgnrl001 - Error starting the service */
     public static final String GENERAL_ERROR_STARTING_SERVICE = GENERAL + "001";
@@ -186,7 +187,23 @@ public class GisMessage {
 
     public static final String CADASTRE_CHANGE_POINTS_SHOW  = CADASTRE_CHANGE + "022";
 
-    //Cadastre redefinition
+    /** Error while creating a new instance of a spatial bean.*/
+     public static final String CADASTRE_CHANGE_ERROR_INITIALIZE_NEW_OBJECT  = 
+             CADASTRE_CHANGE + "023";
+
+    /** Error while setting bean values.*/
+     public static final String CADASTRE_CHANGE_ERROR_SET_BEAN_VALUES  = 
+             CADASTRE_CHANGE + "024";
+
+    /** Error while getting bean values.*/
+     public static final String CADASTRE_CHANGE_ERROR_GET_BEAN_VALUES  = 
+             CADASTRE_CHANGE + "025";
+
+    /** Save changes */
+     public static final String CADASTRE_CHANGE_TRANSACTION_SAVE  = 
+             CADASTRE_CHANGE + "026";
+
+     //Cadastre redefinition
     /**Coordinates entered are not valid.*/
     public static final String CADASTRE_REDEFINITION_COORDS_NOT_VALID  = CADASTRE_REDEFINITION + "001";
 
@@ -248,7 +265,11 @@ public class GisMessage {
     public static final String LEFT_PANEL_TAB_FIND_TITLE = LEFT_PANEL + "02";
     /* There is an error while searching.*/
     public static final String LEFT_PANEL_FIND_ERROR = LEFT_PANEL + "03";
-  
+    /* Documents */
+    public static final String LEFT_PANEL_TAB_DOCUMENTS_TITLE = LEFT_PANEL + "04";
+    /* The selected document does not have any attachment.*/
+    public static final String IMPORT_FILE_DOCUMENT_DOES_NOT_HAVE_ATTACHMENT = IMPORT_FILE + "03";
+
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /** gistest001 - Unit Test Message */
     public static final String TEST001 = TEST + "001";
