@@ -47,6 +47,7 @@ public class GisMessage {
     private static final String CADASTRE_BOUNDARY = MSG_PREFIX + "_cadastre_boundary_";
     private static final String SPATIAL_UNIT = MSG_PREFIX + "_sp_unit_";
     private static final String LEFT_PANEL = MSG_PREFIX + "_left_panel_";
+    private static final String IMPORT_FILE = MSG_PREFIX + "_import_file_";
     // General Messages
     /**
      * gisgnrl001 - Error starting the service
@@ -146,15 +147,22 @@ public class GisMessage {
     public static final String ADD_DIRECT_IMAGE_DEFINE_ORIENTATION_POINT_2_IN_IMAGE = GEOTOOLS + "45";
     public static final String ADD_DIRECT_IMAGE_LOAD_IMAGE = GEOTOOLS + "46";
     public static final String PRINT_LAYOUT_GENERATION_ERROR = GEOTOOLS + "47";
-    /** gisgeotools548 - Invalid scale */
+    /**
+     * gisgeotools548 - Invalid scale
+     */
     public static final String MAP_SCALE_ERROR = GEOTOOLS + "48";
-       /** gisgeotools549 - < 0.01 */
+    /**
+     * gisgeotools549 - < 0.01
+     */
     public static final String MIN_DISPLAY_SCALE = GEOTOOLS + "49";
-    /** gisgeotools550 - Scale: */
+    /**
+     * gisgeotools550 - Scale:
+     */
     public static final String SCALE_LABEL = GEOTOOLS + "50";
-    /** gisgeotools551 - Scale: */
+    /**
+     * gisgeotools551 - Scale:
+     */
     public static final String FAILED_OPEN_FILE = GEOTOOLS + "51";
-    
     //CADASTRE CHANGE
     /**
      * The point has to fall on an current node or to a line
@@ -242,6 +250,36 @@ public class GisMessage {
      */
     public static final String CADASTRE_TOOLTIP_REMOVE_NODE = CADASTRE_CHANGE + "021";
     public static final String CADASTRE_CHANGE_POINTS_SHOW = CADASTRE_CHANGE + "022";
+    /**
+     * Error while creating a new instance of a spatial bean.
+     */
+    public static final String CADASTRE_CHANGE_ERROR_INITIALIZE_NEW_OBJECT =
+            CADASTRE_CHANGE + "023";
+    /**
+     * Error while setting bean values.
+     */
+    public static final String CADASTRE_CHANGE_ERROR_SET_BEAN_VALUES =
+            CADASTRE_CHANGE + "024";
+    /**
+     * Error while getting bean values.
+     */
+    public static final String CADASTRE_CHANGE_ERROR_GET_BEAN_VALUES =
+            CADASTRE_CHANGE + "025";
+    /**
+     * Save changes
+     */
+    public static final String CADASTRE_CHANGE_TRANSACTION_SAVE =
+            CADASTRE_CHANGE + "026";
+    /**
+     * New cadastre objects
+     */
+    public static final String CADASTRE_CHANGE_FORM_NEW_OBJECTS_TITLE =
+            CADASTRE_CHANGE + "027";
+    /**
+     * Survey points
+     */
+    public static final String CADASTRE_CHANGE_FORM_SURVEYPOINT_TITLE =
+            CADASTRE_CHANGE + "028";
     //Cadastre redefinition
     /**
      * Coordinates entered are not valid.
@@ -274,8 +312,7 @@ public class GisMessage {
     /**
      * Error while adding a cadastre object target.
      */
-    public static final String CADASTRE_REDEFINITION_ADD_TARGET_ERROR =
-            CADASTRE_REDEFINITION + "008";
+    public static final String CADASTRE_REDEFINITION_ADD_TARGET_ERROR = CADASTRE_REDEFINITION + "008";
     /**
      * Error while identifying the point of the target boundary.
      */
@@ -330,6 +367,11 @@ public class GisMessage {
      */
     public static final String LEFT_PANEL_FIND_ERROR = LEFT_PANEL + "03";
     /*
+     * Documents
+     */
+    public static final String LEFT_PANEL_TAB_DOCUMENTS_TITLE = LEFT_PANEL + "04";
+
+    /*
      * A feature {0} could not be added to the {1} layer.
      */
     public static final String SPATIAL_UNIT_ADD_FEATURE_ERROR = SPATIAL_UNIT + "01";
@@ -361,6 +403,10 @@ public class GisMessage {
      * Add road centerline
      */
     public static final String SPATIAL_UNIT_TOOLTIP_ADD_ROAD = SPATIAL_UNIT + "08";
+    /*
+     * The selected document does not have any attachment.
+     */
+    public static final String IMPORT_FILE_DOCUMENT_DOES_NOT_HAVE_ATTACHMENT = IMPORT_FILE + "03";
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /**
      * gistest001 - Unit Test Message
