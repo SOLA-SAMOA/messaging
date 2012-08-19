@@ -545,6 +545,11 @@ public class ClientMessage {
      * service
      */
     public static final String APPLICATION_WARNING_ADDEDSERVICE = APPLICATION + "040";
+    /**
+     * cliapp041 - Application not found.
+     */
+    public static final String APPLICATION_NOT_FOUND = APPLICATION + "041";
+    
     // Reports messages.
     /**
      * clirpt001 - Report generation failed. Error details: {0}
@@ -738,6 +743,17 @@ public class ClientMessage {
      * clisource006 - The document could not be retrieved for display.
      */
     public static final String SOURCE_NO_DOCUMENT = SOURCE + "006";
+    /** clisource007 - Document shouldn't be null. */
+    public static final String SOURCE_MUST_BE_NOT_NULL = SOURCE + "007";
+    /** clisource008 - Attorney name shouldn't be empty. */
+    public static final String SOURCE_ATTORNEY_NAME_NOT_NULL = SOURCE + "008";
+    /** clisource009 - Person name shouldn't be empty. */
+    public static final String SOURCE_PERSON_NAME_NOT_NULL = SOURCE + "009";
+    /**
+     * clisource010 - Document not found.
+     */
+    public static final String SOURCE_NOT_FOUND = SOURCE + "010";
+    
     // Validation messages 
     /**
      * clivldtn001 - You have duplicated objects in the list
@@ -1008,4 +1024,16 @@ public class ClientMessage {
      * cliprgs031 - Generating thumbnail...
      */
     public static final String PROGRESS_MSG_GENERATE_THUMBNAIL = PROGRESSMSG + "031";
+    /**
+     * cliprgs032 - Searching power of attorney...
+     */
+    public static final String PROGRESS_MSG_POWER_OF_ATTORNEY_SEARCHING = PROGRESSMSG + "032";
+    /**
+     * cliprgs033 - Getting application...
+     */
+    public static final String PROGRESS_MSG_APP_GETTING = PROGRESSMSG + "033";
+    /**
+     * cliprgs034 - Getting document...
+     */
+    public static final String PROGRESS_MSG_DOCUMENT_GETTING = PROGRESSMSG + "034";
 }
