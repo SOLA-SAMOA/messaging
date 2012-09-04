@@ -189,7 +189,8 @@ public class ClientMessage {
      * clichck007 - cannot be null
      */
     public static final String CHECK_NOTNULL_FIELDS = CHECK + "007";
-    // validation hibernate messages 
+    
+  // validation hibernate messages 
     /**
      * clichck008 - name cannot be null
      */
@@ -385,6 +386,12 @@ public class ClientMessage {
      * clichck093 - {0} value must be an integer .
      */
     public static final String CHECK_BAUNITAREA_INTEGER = CHECK + "093";
+    
+     /**
+     * clichck094 - Current password not correct.
+     */
+    public static final String CHECK_CURRENTPSSWD_NOTMATCH = CHECK + "094";
+    
     
     // Application messages
     /**
@@ -661,6 +668,13 @@ public class ClientMessage {
      * clibaunit016 - The sum of parcels areas is "{0}". Do you want to save this value for area size?
      */
     public static final String BAUNIT_CONFIRM_AREA = BAUNIT + "016";
+    
+    
+    /**
+     * clibaunit017 - There are current RRRs that will be canceled.\n Do you want to proceed?
+     */
+    public static final String BAUNIT_CURRENT_RRR_EXIST_CONFIRM_TERMINATION = BAUNIT + "017";
+    
     // General error messages
     /**
      * clierrs001 - Can't cerate a new file. {0}
@@ -687,6 +701,11 @@ public class ClientMessage {
      * cliconfirm001 - Are you sure you want to delete record? All data will be lost
      */
     public static final String CONFIRM_DELETE_RECORD = GENERAL_CONFIRM + "001";
+    
+    /**
+     * cliconfirm002 - You are about changing your password. The system will be closed. Do you want to proceed?
+     */
+    public static final String CONFIRM_SYSTEM_WILL_BE_CLOSED = GENERAL_CONFIRM + "002";
     // Help messages
     /**
      * clihelp001 - HelpSet - Exception:{0} Path: {1} not found
