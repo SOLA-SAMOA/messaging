@@ -937,6 +937,13 @@ public class ClientMessage {
      * cliadmin023 - Reference data object \"{0}\" has been saved.
      */
     public static final String ADMIN_REFDATA_SAVED = ADMIN + "023";
+    
+    /**
+     * cliadmin100 - Your password is set to the default value. You can change your password from the
+     * User profile. 
+     */
+    public static final String ADMIN_CHANGE_PASSWORD = ADMIN + "100";
+    
     // Progress bar messages
     /**
      * cliprgs001 - Opening application form...
