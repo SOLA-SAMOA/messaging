@@ -140,6 +140,10 @@ public class ClientMessage {
      * clignrl023 - refresh Dashboard
      */
     public static final String GENERAL_BACK_TO_DASHBOARD = GENERAL + "023";
+        /**
+     * clignrl100 - Save was successful
+     */
+    public static final String GENERAL_SAVE_SUCCESSFUL = GENERAL + "100";
     // Service Messages
     /**
      * cliserv001 - Unable to initialize the {0} service. The reason is: {1}
@@ -1081,4 +1085,8 @@ public class ClientMessage {
      * cliprgs035 - Starting service...
      */
     public static final String PROGRESS_MSG_SERVICE_STARTING = PROGRESSMSG + "035";
+        /**
+     * cliprgs100 - Opening Unit Parcels form...
+     */
+    public static final String PROGRESS_MSG_OPEN_UNIT_PARCELS = PROGRESSMSG + "100";
 }
