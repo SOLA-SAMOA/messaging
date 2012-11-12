@@ -140,7 +140,7 @@ public class ClientMessage {
      * clignrl023 - refresh Dashboard
      */
     public static final String GENERAL_BACK_TO_DASHBOARD = GENERAL + "023";
-        /**
+    /**
      * clignrl100 - Save was successful
      */
     public static final String GENERAL_SAVE_SUCCESSFUL = GENERAL + "100";
@@ -193,8 +193,7 @@ public class ClientMessage {
      * clichck007 - cannot be null
      */
     public static final String CHECK_NOTNULL_FIELDS = CHECK + "007";
-    
-  // validation hibernate messages 
+    // validation hibernate messages 
     /**
      * clichck008 - name cannot be null
      */
@@ -312,13 +311,10 @@ public class ClientMessage {
      * clichck076 - Invalid length.
      */
     public static final String CHECK_FIELD_INVALID_LENGTH = CHECK + "076";
- 
-    
-    
-    
-    /** clichck300 - Fill in Agent */
+    /**
+     * clichck300 - Fill in Agent
+     */
     public static final String CHECK_APP_AGENT = CHECK + "300";
-    
     /**
      * clichck077 - Invalid length + parameters.
      */
@@ -379,24 +375,18 @@ public class ClientMessage {
      * clichck091 - Invalid length last name field.
      */
     public static final String CHECK_FIELD_INVALID_LENGTH_LASTNAME = CHECK + "091";
-    
     /**
      * clichck092 - No item starting with {0} .
      */
     public static final String CHECK_NO_MATCHING_ITEM = CHECK + "092";
-    
-    
-     /**
+    /**
      * clichck093 - {0} value must be an integer .
      */
     public static final String CHECK_BAUNITAREA_VALUE = CHECK + "093";
-    
-     /**
+    /**
      * clichck094 - Current password not correct.
      */
     public static final String CHECK_CURRENTPSSWD_NOTMATCH = CHECK + "094";
-    
-    
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
@@ -567,10 +557,10 @@ public class ClientMessage {
      * cliapp041 - Application not found.
      */
     public static final String APPLICATION_NOT_FOUND = APPLICATION + "041";
-     /**
+    /**
      * cliapp042 - Application service \"{0}\", has been successfully started.
      */
-    public static final String APPLICATION_SERVICE_START_SUCCESS = APPLICATION + "042";   
+    public static final String APPLICATION_SERVICE_START_SUCCESS = APPLICATION + "042";
     // Reports messages.
     /**
      * clirpt001 - Report generation failed. Error details: {0}
@@ -672,21 +662,19 @@ public class ClientMessage {
      */
     public static final String BAUNIT_SAVE_FAILED = BAUNIT + "015";
     /**
-     * clibaunit016 - The sum of parcels areas is "{0}". Do you want to save this value for area size?
+     * clibaunit016 - The sum of parcels areas is "{0}". Do you want to save this value for area
+     * size?
      */
     public static final String BAUNIT_CONFIRM_AREA = BAUNIT + "016";
-    
-    
     /**
      * clibaunit017 - There are current RRRs that will be canceled.\n Do you want to proceed?
      */
     public static final String BAUNIT_CURRENT_RRR_EXIST_CONFIRM_TERMINATION = BAUNIT + "017";
-    
-     /**
-     * clibaunit018 - Parcel already exists and assigned to another Property please use selection tool for adding existing parcels
+    /**
+     * clibaunit018 - Parcel already exists and assigned to another Property please use selection
+     * tool for adding existing parcels
      */
     public static final String BAUNIT_PARCEL_EXISTS = BAUNIT + "018";
-   
     // General error messages
     /**
      * clierrs001 - Can't cerate a new file. {0}
@@ -713,9 +701,9 @@ public class ClientMessage {
      * cliconfirm001 - Are you sure you want to delete record? All data will be lost
      */
     public static final String CONFIRM_DELETE_RECORD = GENERAL_CONFIRM + "001";
-    
     /**
-     * cliconfirm002 - You are about changing your password. The system will be closed. Do you want to proceed?
+     * cliconfirm002 - You are about changing your password. The system will be closed. Do you want
+     * to proceed?
      */
     public static final String CONFIRM_SYSTEM_WILL_BE_CLOSED = GENERAL_CONFIRM + "002";
     // Help messages
@@ -781,17 +769,22 @@ public class ClientMessage {
      * clisource006 - The document could not be retrieved for display.
      */
     public static final String SOURCE_NO_DOCUMENT = SOURCE + "006";
-    /** clisource007 - Document shouldn't be null. */
+    /**
+     * clisource007 - Document shouldn't be null.
+     */
     public static final String SOURCE_MUST_BE_NOT_NULL = SOURCE + "007";
-    /** clisource008 - Attorney name shouldn't be empty. */
+    /**
+     * clisource008 - Attorney name shouldn't be empty.
+     */
     public static final String SOURCE_ATTORNEY_NAME_NOT_NULL = SOURCE + "008";
-    /** clisource009 - Person name shouldn't be empty. */
+    /**
+     * clisource009 - Person name shouldn't be empty.
+     */
     public static final String SOURCE_PERSON_NAME_NOT_NULL = SOURCE + "009";
     /**
      * clisource010 - Document not found.
      */
     public static final String SOURCE_NOT_FOUND = SOURCE + "010";
-    
     // Validation messages 
     /**
      * clivldtn001 - You have duplicated objects in the list
@@ -941,13 +934,11 @@ public class ClientMessage {
      * cliadmin023 - Reference data object \"{0}\" has been saved.
      */
     public static final String ADMIN_REFDATA_SAVED = ADMIN + "023";
-    
     /**
-     * cliadmin100 - Your password is set to the default value. You can change your password from the
-     * User profile. 
+     * cliadmin100 - Your password is set to the default value. You can change your password from
+     * the User profile.
      */
     public static final String ADMIN_CHANGE_PASSWORD = ADMIN + "100";
-    
     // Progress bar messages
     /**
      * cliprgs001 - Opening application form...
@@ -1085,8 +1076,12 @@ public class ClientMessage {
      * cliprgs035 - Starting service...
      */
     public static final String PROGRESS_MSG_SERVICE_STARTING = PROGRESSMSG + "035";
-        /**
+    /**
      * cliprgs100 - Opening Unit Parcels form...
      */
     public static final String PROGRESS_MSG_OPEN_UNIT_PARCELS = PROGRESSMSG + "100";
+    /**
+     * cliprgs101 - Creating strata properties...
+     */
+    public static final String PROGRESS_MSG_CREATE_STRATA_PROPS = PROGRESSMSG + "101";
 }
