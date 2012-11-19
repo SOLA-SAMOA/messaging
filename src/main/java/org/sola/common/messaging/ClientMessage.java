@@ -1084,4 +1084,8 @@ public class ClientMessage {
      * cliprgs101 - Creating strata properties...
      */
     public static final String PROGRESS_MSG_CREATE_STRATA_PROPS = PROGRESSMSG + "101";
+        /**
+     * cliprgs102 - Generating report...
+     */
+    public static final String PROGRESS_MSG_GENERATE_REPORT = PROGRESSMSG + "102";
 }
