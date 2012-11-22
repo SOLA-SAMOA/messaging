@@ -939,6 +939,11 @@ public class ClientMessage {
      * the User profile.
      */
     public static final String ADMIN_CHANGE_PASSWORD = ADMIN + "100";
+    /**
+     * cliadmin101 - Your user account is disabled. Contact your administrator to enable your user
+     * account.
+     */
+    public static final String ADMIN_USER_ACCOUNT_DISABLED = ADMIN + "101";
     // Progress bar messages
     /**
      * cliprgs001 - Opening application form...
@@ -1084,7 +1089,7 @@ public class ClientMessage {
      * cliprgs101 - Creating strata properties...
      */
     public static final String PROGRESS_MSG_CREATE_STRATA_PROPS = PROGRESSMSG + "101";
-        /**
+    /**
      * cliprgs102 - Generating report...
      */
     public static final String PROGRESS_MSG_GENERATE_REPORT = PROGRESSMSG + "102";
