@@ -387,6 +387,10 @@ public class ClientMessage {
      * clichck094 - Current password not correct.
      */
     public static final String CHECK_CURRENTPSSWD_NOTMATCH = CHECK + "094";
+    /**
+     * clichck301 - The Lodgement Statistics Report can only on periods after the 1 Dec 2012.
+     */
+    public static final String CHECK_LODGEMENT_STAT_REPORT_DATE = CHECK + "301";
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
