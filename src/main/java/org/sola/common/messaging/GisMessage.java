@@ -163,6 +163,23 @@ public class GisMessage {
      * gisgeotools551 - Scale:
      */
     public static final String FAILED_OPEN_FILE = GEOTOOLS + "51";
+        /**
+     * gisgeotools590 - Export selected feature(s) to KML.
+     */
+    public static final String KML_EXPORT_TOOLTIP = GEOTOOLS + "90";
+        /**
+     * gisgeotools591 - An error occurred while attempting to export the selected feature(s)
+     */
+    public static final String KML_EXPORT_ERROR = GEOTOOLS + "91";
+        /**
+     * gisgeotools592 - Map feature(s) have been successfully exported to %s"
+     */
+    public static final String KML_EXPORT_FILE_LOCATION = GEOTOOLS + "92";
+        /**
+     * gisgeotools593 - No features are selected for export
+     */
+    public static final String KML_EXPORT_NO_FEATURE_SELECTED = GEOTOOLS + "93";
+    
     //CADASTRE CHANGE
     /**
      * The point has to fall on an current node or to a line
