@@ -391,6 +391,11 @@ public class ClientMessage {
      * clichck301 - The Lodgement Statistics Report can only on periods after the 1 Dec 2012.
      */
     public static final String CHECK_LODGEMENT_STAT_REPORT_DATE = CHECK + "301";
+    /**
+     * clichck302 - Property cannot reference itself as a related property. Remove the prior title
+     * reference.
+     */
+    public static final String CHECK_RELATED_BA_UNIT = CHECK + "302";
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
