@@ -417,9 +417,13 @@ public class GisMessage {
      */
     public static final String SPATIAL_UNIT_TOOLTIP_ADD_HYDRO = SPATIAL_UNIT + "07";
     /**
-     * Add road centerline
+     * Add road polygon
      */
     public static final String SPATIAL_UNIT_TOOLTIP_ADD_ROAD = SPATIAL_UNIT + "08";
+        /**
+     * Add road centerline
+     */
+    public static final String SPATIAL_UNIT_TOOLTIP_ADD_ROADCL = SPATIAL_UNIT + "09";
     /*
      * The selected document does not have any attachment.
      */
