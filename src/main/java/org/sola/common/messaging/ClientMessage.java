@@ -684,6 +684,10 @@ public class ClientMessage {
      * tool for adding existing parcels
      */
     public static final String BAUNIT_PARCEL_EXISTS = BAUNIT + "018";
+     /**
+     * clibaunit050 - The property you are attempting to edit does not exist.
+     */
+    public static final String BAUNIT_DOES_NOT_EXIST = BAUNIT + "050";
     // General error messages
     /**
      * clierrs001 - Can't cerate a new file. {0}
