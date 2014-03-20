@@ -424,6 +424,10 @@ public class GisMessage {
      * Add road centerline
      */
     public static final String SPATIAL_UNIT_TOOLTIP_ADD_ROADCL = SPATIAL_UNIT + "09";
+    /**
+     * Add village
+     */
+    public static final String SPATIAL_UNIT_TOOLTIP_ADD_VILLAGE = SPATIAL_UNIT + "10";
     /*
      * The selected document does not have any attachment.
      */
