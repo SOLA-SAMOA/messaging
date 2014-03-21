@@ -821,6 +821,10 @@ public class ClientMessage {
      * clisource010 - Document not found.
      */
     public static final String SOURCE_NOT_FOUND = SOURCE + "010";
+        /**
+     * clisource011 - Historic documents cannot be added to an application.
+     */
+    public static final String SOURCE_HISTORIC = SOURCE + "011";
     // Validation messages 
     /**
      * clivldtn001 - You have duplicated objects in the list
