@@ -428,6 +428,14 @@ public class GisMessage {
      * Add village
      */
     public static final String SPATIAL_UNIT_TOOLTIP_ADD_VILLAGE = SPATIAL_UNIT + "10";
+    /**
+     * You must select two or more Spatial Units from the same layer to proceed with a merge. 
+     */
+    public static final String SPATIAL_UNIT_INVALID_MERGE_SELECTION = SPATIAL_UNIT + "11";
+    /**
+     * The merge was not able to produce a invalid geometry.
+     */
+    public static final String SPATIAL_UNIT_INVALID_MERGE_RESULT = SPATIAL_UNIT + "12";
     /*
      * The selected document does not have any attachment.
      */
