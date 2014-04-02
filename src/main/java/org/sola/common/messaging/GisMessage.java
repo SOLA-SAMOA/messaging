@@ -48,6 +48,7 @@ public class GisMessage {
     private static final String SPATIAL_UNIT = MSG_PREFIX + "_sp_unit_";
     private static final String LEFT_PANEL = MSG_PREFIX + "_left_panel_";
     private static final String IMPORT_FILE = MSG_PREFIX + "_import_file_";
+    private static final String MEASURE = MSG_PREFIX + "measure";
     // General Messages
     /**
      * gisgnrl001 - Error starting the service
@@ -440,6 +441,15 @@ public class GisMessage {
      * The selected document does not have any attachment.
      */
     public static final String IMPORT_FILE_DOCUMENT_DOES_NOT_HAVE_ATTACHMENT = IMPORT_FILE + "03";
+    
+    // Measure Tool
+    /** gismeasure001 - Distance is {0}m */
+    public static final String MEASURE_DISTANCE_METERS = MEASURE + "001";
+    /** gismeasure002 - Distance is {0}km */
+    public static final String MEASURE_DISTANCE_KILOMETERS = MEASURE + "002";
+    /** gismeasure003 - Click to measure distance */
+    public static final String MEASURE_TOOLTIP = MEASURE + "003";
+
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /**
      * gistest001 - Unit Test Message
