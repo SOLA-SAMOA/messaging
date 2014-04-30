@@ -405,6 +405,10 @@ public class ClientMessage {
      * Remove the prior title reference.
      */
     public static final String CHECK_RELATED_BA_UNIT = CHECK + "302";
+    /**
+     * clichck303 - No Unit Development Number could be determined for this application.
+     */
+    public static final String CHECK_UNIT_DEVELOPMENT_NR = CHECK + "303";
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
@@ -1134,6 +1138,14 @@ public class ClientMessage {
      * cliprgs102 - Generating report...
      */
     public static final String PROGRESS_MSG_GENERATE_REPORT = PROGRESSMSG + "102";
+    /**
+     * cliprgs103 - Marking strata properties for termination...
+     */
+    public static final String PROGRESS_MSG_CANCEL_STRATA_PROPS = PROGRESSMSG + "103";
+        /**
+     * cliprgs104 - Undoing strata property termination...
+     */
+    public static final String PROGRESS_MSG_UNDO_CANCEL_STRATA_PROPS = PROGRESSMSG + "104";
     /**
      * clisec001 - Your password is due to expire in {0} days.
      */
