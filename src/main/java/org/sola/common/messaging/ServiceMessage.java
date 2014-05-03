@@ -45,6 +45,7 @@ public class ServiceMessage {
     private static final String EJB_SOURCE = MSG_PREFIX + "ejbsource";
     private static final String EJB_TRANSACTION = MSG_PREFIX + "ejbtransaction";
     private static final String EJB_ADMINISTRATIVE = MSG_PREFIX + "ejbprop";
+    private static final String EJB_CADASTRE = MSG_PREFIX + "ejbcad";
     private static final String ADMIN_WS = MSG_PREFIX + "adminservice";
     
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
@@ -133,6 +134,13 @@ public class ServiceMessage {
     public static final String ADMIN_WS_USER_EXISTS = ADMIN_WS + "001";
     
     // Administrative EJB Messages
-    /** serprop001 - New properties must be associated with a parcel */
+    /** serejbprop001 - New properties must be associated with a parcel */
     public static final String EJB_ADMINISTRATIVE_NO_PARCEL = EJB_ADMINISTRATIVE + "001";
+    
+    // Cadastre EJB Messages
+    /** serejbcad001 - Parcel cannot be made historic because it is not current */
+    public static final String EJB_CADASTRE_PARCEL_NOT_CURRENT = EJB_CADASTRE + "001";
+    
+     /** serejbcad002 - Parcel name cannot be changed as a parcel already exists with the new name. */
+    public static final String EJB_CADASTRE_INVALID_NAME = EJB_CADASTRE + "002";
 }

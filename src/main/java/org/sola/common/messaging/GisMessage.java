@@ -83,7 +83,31 @@ public class GisMessage {
      * gisgnrl008 - Layer: %s. No features could be retrieved. Source might be unavailable.
      */
     public static final String GENERAL_RETRIEVE_FEATURES_ERROR = GENERAL + "008";
-    // Info Tool    
+    
+    /**
+     * gisgnrl050 - Change Parcel Attributes
+     */
+     public static final String TOOLTIP_CHANGE_PARCEL_ATTR = GENERAL + "050";
+     /**
+     * gisgnrl051 - Updating parcel attributes...
+     */
+     public static final String PROGRESS_MSG_CHANGE_PARCEL_ATTR = GENERAL + "051";
+     /**
+     * gisgnrl052 - Parcel attributes updated successfully
+     */
+     public static final String RESULT_MSG_CHANGE_PARCEL_ATTR = GENERAL + "052";
+     /**
+     * gisgnrl053 - Error retrieving selected parcel
+     */
+     public static final String ERROR_MSG_CHANGE_PARCEL_ATTR = GENERAL + "053";
+     /**
+     * gisgnrl054 - No parcels have been selected
+     */
+     public static final String NO_PARCELS_SELECTED = GENERAL + "054";
+          /**
+     * gisgnrl055 - This parcel cannot be edited once it made historic. 
+     */
+     public static final String CONFIRM_MAKE_HISTORIC = GENERAL + "055";
     /**
      * gisinfotool001 - Click to get information
      */
@@ -449,7 +473,7 @@ public class GisMessage {
     public static final String MEASURE_DISTANCE_KILOMETERS = MEASURE + "002";
     /** gismeasure003 - Click to measure distance */
     public static final String MEASURE_TOOLTIP = MEASURE + "003";
-
+   
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /**
      * gistest001 - Unit Test Message
