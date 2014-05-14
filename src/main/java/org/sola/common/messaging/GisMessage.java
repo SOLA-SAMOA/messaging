@@ -104,10 +104,14 @@ public class GisMessage {
      * gisgnrl054 - No parcels have been selected
      */
      public static final String NO_PARCELS_SELECTED = GENERAL + "054";
-          /**
+     /**
      * gisgnrl055 - This parcel cannot be edited once it made historic. 
      */
      public static final String CONFIRM_MAKE_HISTORIC = GENERAL + "055";
+     /**
+     * gisgnrl056 - This feature you have selected is not a parcel. 
+     */
+     public static final String INVALID_PARCEL_FEATURE_SELECTED = GENERAL + "056";
     /**
      * gisinfotool001 - Click to get information
      */
