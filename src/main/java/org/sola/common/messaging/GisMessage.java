@@ -467,6 +467,14 @@ public class GisMessage {
      * The merge was not able to produce a invalid geometry.
      */
     public static final String SPATIAL_UNIT_INVALID_MERGE_RESULT = SPATIAL_UNIT + "12";
+    /**
+     * Add traverse mark
+     */
+    public static final String SPATIAL_UNIT_TOOLTIP_ADD_TRAVERSE_MARK = SPATIAL_UNIT + "13";
+      /**
+     * Add district boundary
+     */
+    public static final String SPATIAL_UNIT_TOOLTIP_ADD_DISTRICT_BOUNDARY = SPATIAL_UNIT + "14";
     /*
      * The selected document does not have any attachment.
      */
