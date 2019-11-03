@@ -257,6 +257,7 @@ public class ClientMessage {
     public static final String CHECK_BEANNOTNULL_BRVALTARGETTYPE = CHECK + "059";
     public static final String CHECK_GENERICNULL_OBJECT = CHECK + "060";
     public static final String CHECK_GENERICDUPL_OBJECT = CHECK + "061";
+    
     /**
      * clichck062 - Number of services should be greater than 0.
      */
@@ -407,6 +408,12 @@ public class ClientMessage {
      * clichck303 - No Unit Development Number could be determined for this application.
      */
     public static final String CHECK_UNIT_DEVELOPMENT_NR = CHECK + "303";
+    
+    /**
+     * clichck304 - Enter receipt number to continue.
+     */
+     public static final String CHECK_NOTNULL_RECEIPT_NUMBER = CHECK + "304";
+     
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
@@ -731,6 +738,10 @@ public class ClientMessage {
      * clierrs005 - {0} Web-service is not initialized.
      */
     public static final String GENERAL_ERRORS_WEBSERVICE_NOT_INITIALIZED = GENERAL_ERRORS + "005";
+    /**
+     * clierrs006 - The file {0} cannot be printed automatically.
+     */
+    public static final String ERR_FAILED_PRINT_FILE = GENERAL_ERRORS + "006";
     // General confirms
     /**
      * cliconfirm001 - Are you sure you want to delete record? All data will be
@@ -1145,6 +1156,10 @@ public class ClientMessage {
      */
     public static final String PROGRESS_MSG_UNDO_CANCEL_STRATA_PROPS = PROGRESSMSG + "104";
     /**
+     * cliprgs105 - Printing document...
+     */
+    public static final String PROGRESS_MSG_DOCUMENT_PRINTING = PROGRESSMSG + "105";
+    /**
      * clisec001 - Your password is due to expire in {0} days.
      */
     public static final String SECURITY_WARN_PWORD_EXPIRY = SECURITY + "001";
@@ -1156,4 +1171,8 @@ public class ClientMessage {
      * clisec003 - Your password has expired.
      */
     public static final String SECURITY_PASSWORD_EXPIRED = SECURITY + "003";
+    /**
+     * clisec004 - You must enter a receipt number.
+     */
+    public static final String SECURITY_MISSING_RECEIPT_NUM = SECURITY + "004";
 }
