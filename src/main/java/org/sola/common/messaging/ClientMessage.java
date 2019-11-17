@@ -717,6 +717,10 @@ public class ClientMessage {
      * clibaunit050 - The property you are attempting to edit does not exist.
      */
     public static final String BAUNIT_DOES_NOT_EXIST = BAUNIT + "050";
+         /**
+     * clibaunit051 - Do you want to make this deed current?
+     */
+    public static final String BAUNIT_CONFIRM_MAKE_CURRENT = BAUNIT + "051";
     // General error messages
     /**
      * clierrs001 - Can't cerate a new file. {0}
@@ -1159,6 +1163,10 @@ public class ClientMessage {
      * cliprgs105 - Printing document...
      */
     public static final String PROGRESS_MSG_DOCUMENT_PRINTING = PROGRESSMSG + "105";
+    /**
+     * cliprgs106 - Updating status...
+     */
+    public static final String PROGRESS_MSG_UPDATING_STATUS = PROGRESSMSG + "106";
     /**
      * clisec001 - Your password is due to expire in {0} days.
      */
